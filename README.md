@@ -1,4 +1,4 @@
-# 安路安路AN-LINK-FT开源实现
+# 安路AN-LINK-FT开源实现
 
 MCU是CH32V307VCT6,已在DR1M90GEG484实板跑通,环境TD/FD 2026.2.
 
@@ -49,7 +49,7 @@ Linux下整机被ftdi_sio认领时串口直接成/dev/ttyUSBx,JTAG 要用libftdi
 
 ## 实测
 
-目标:DR1M90GEG484 I2, PLJTAG 四 TAP 链(dummy 5 + ARM DAP 4 + PS TAP 4 + PL FPGA 8, 总 IR 21 位, 见根 README)。使用 TD/FD 2026.2 原厂工具:
+目标:DR1M90GEG484 I2, PLJTAG 四 TAP 链(dummy 5 + ARM DAP 4 + PS TAP 4 + PL FPGA 8, 总 IR 21 位,使用 TD/FD 2026.2 原厂工具:
 
 | 场景 | 结果 |
 |------|------|
